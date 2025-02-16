@@ -13,6 +13,7 @@ module.exports = {
         library: '[name]',
         chunkLoading: 'jsonp',
         chunkFilename: 'chunk_[name]_[id]_[chunkhash].js',
+        asyncChunks: false,
     },
     plugins: [
         new webpack.DllPlugin({
