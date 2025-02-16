@@ -25,6 +25,6 @@ module.exports = {
     devtool: 'eval-cheap-module-source-map',
     cache: false,
     externals: {},
-    optimization: { moduleIds: 'named' },
+    optimization: { moduleIds: 'deterministic' },
     node: { __dirname: 'mock', __filename: 'mock', global: true },
 };
