@@ -2,7 +2,7 @@
   "name": "webpack-dll-repro",
   "version": "0.0.0",
   "scripts": {
-    "build": "rm dist/* && webpack build --config ./webpack.dll.config.js && webpack build --config ./webpack.config.js"
+    "build": "webpack build --config ./webpack.dll.config.js && webpack build --config ./webpack.config.js"
   },
   "dependencies": {
     "lodash": "^4.17.21",
